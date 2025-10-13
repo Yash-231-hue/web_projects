@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>My Appointments</h2>
+{% if appointments %}
+  <table class="table">
+    <thead><tr><th>Doctor</th><th>Date</th><th>Time</th><th>Status</th><th>Action</th></tr></thead>
+    <tbody>
+      {% for a in appointments %}
+      <tr>
+        <td>{{ a.doctor.name }}</td>
+        <td>{{ a.date.strftime("%Y-%m-%d") }}</td>
+        <td>{{ a.time.strftime("%H:%M") }}</td>
+        <td>{{ a.status }}</td>
+        <td>
+          {% if a.status != 'cancelled' %}
+            <a href="{{ url_for('cancel_appointment', appt_id=a.id) }}" class="btn btn-sm btn-danger">Cancel</a>
+          {% endif %}
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% else %}
+  <p>No appointments yet.</p>
+{% endif %}
+{% endblock %}
