@@ -1,4 +1,4 @@
-# Clinic Appointment System
+![WhatsApp Image 2025-10-15 at 10 02 42_8a8fc88a](https://github.com/user-attachments/assets/916b2533-6c71-4ec5-a143-04fd010bd1b9)# Clinic Appointment System
 
 A web-based appointment booking system built with Flask, allowing patients to book appointments with doctors and administrators to manage doctors and view schedules.
 
@@ -45,7 +45,7 @@ A web-based appointment booking system built with Flask, allowing patients to bo
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/Yash-231-hue/web_projects/
 cd clinic-appointment-system
 ```
 
@@ -129,6 +129,8 @@ clinic-appointment-system/
 │   └── 404.html
 └── README.md
 ```
+### Screenshot
+![Uploading Screenshot 2025-10-15 083420.png…]()
 
 ## Security Features
 
@@ -149,3 +151,4 @@ clinic-appointment-system/
 ## License
 
 This project is open source and available under the MIT License.
+
