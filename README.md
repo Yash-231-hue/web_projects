@@ -1,4 +1,4 @@
-![Uploading image.png…]()
+<img width="1902" height="1028" alt="image" src="https://github.com/user-attachments/assets/01f43d48-88b3-4493-a9f6-48b4e496b7c9" />
 
 # Clinic Appointment System
 
@@ -153,5 +153,6 @@ clinic-appointment-system/
 ## License
 
 This project is open source and available under the MIT License.
+
 
 
